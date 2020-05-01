@@ -1,0 +1,329 @@
+* {
+    font-family: Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #316DC3;
+    height: 50px;
+    z-index: auto;
+    position: fixed;
+    top: auto;
+    width: 100%;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+.logos {
+    margin: 10px 30px;
+    display: inline-block;
+    height: 15px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+#text1{
+    font-size: 14px;
+    position: relative;
+    bottom: 14px;
+    color: white;
+}
+.nav-text {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: middle;
+    margin-right: 50px;
+
+}
+nav button {
+    border: 1px solid #427900;
+    color: #427900;
+    padding: 5px 10px ;
+    font-size: 11px;
+    position: relative;
+    bottom: 14px;
+    left: 20px;
+}
+.nav2{
+    background-color: white;
+    z-index: auto;
+    position: fixed;
+    top: auto;
+    width: 100%;
+}
+.nav2 img {
+    width: 192px;
+    height: 52px;
+    margin: 10px 30px;
+}
+
+.nav2 li {
+    list-style: none;
+    color: black;
+    height: 34;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+.nav2 #li {
+    display: inline;
+    float: right;
+}
+
+.nav2 li:hover {
+    background-color: #316DC3;
+    border-radius: 10px;
+}
+
+.nav2 li:active {
+    background-color: #316DC3;
+    padding: 18px 0px;
+    border-radius: 10px;
+}
+
+.nav2 #image {
+    display: inline-block;
+}
+
+/* Section Css Strated here */
+.section img {
+    width: 100%;
+    height: 500px;
+}
+
+.marque {
+    color: black;
+    background-color: #316DC3;
+    width: 1200px;
+    margin: 10px auto;
+    height: 30px;
+}
+
+#b {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+#intro {
+    color: #316DC3;
+    display: inline;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#duction {
+    display: inline-block;
+    color: #427900;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#heading {
+    margin: 10px auto;
+    text-align: center;
+}
+
+#startintro {
+    text-align: center;
+}
+
+#startintro img {
+    width: 40px;
+    height: 40px;
+}
+
+#line {
+    width: 150px;
+    height: 3px;
+    background-color: #427900;
+    margin: 0px auto;
+}
+
+#introduction {
+    width: 900px;
+    margin: 5px auto;
+}
+
+#introduction p {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.box img {
+    width: 40px;
+    height: 40px;
+}
+
+.box {
+    text-align: center;
+    padding: 30px 5px;
+    width: 290px;
+    display: inline-block;
+    height: 190px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.behindbox {
+    text-align: center;
+    width: 1200px;
+    color: white;
+    margin: 10px auto;
+    background-color: rgba(36, 79, 242);
+}
+
+.monthly {
+    color: rgb(0, 255, 0);
+}
+
+.box span {
+    font-weight: bold;
+}
+.welfare{
+    background-color: rgb(236, 235, 232);
+}
+.boxi {
+    text-align: center;
+    padding: 30px 5px;
+    width: 360px;
+    display: inline-block;
+    height: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    background-color: white;
+}
+.boxi img {
+    width: 70px;
+    height: 70px;
+}
+.welfare h2{
+    color: #316DC3;
+    text-align: center;
+    margin:10px ;
+}
+.mission{
+    margin: 20px auto;
+    color: #316DC3;
+}
+.mission-1{
+    width: 850px;
+    display: inline-block;
+}
+
+.mission-2{
+    width: 380px;
+    display: inline-block;
+    background-color:  rgb(236, 235, 232) ;
+}
+
+.box-2 {
+
+    padding: 30px 5px;
+    width: 360px;
+    display: inline-block;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    background-color: rgb(236, 235, 232);
+}
+.box-2 h2{
+    color: #316DC3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+display: inline-block;
+}
+.box-2 img {
+    width: 40px;
+    height: 40px;
+}
+.overflow{
+   margin: 10px 20px ;
+}
+.overflow marquee{
+    color: #666666;
+}
+#images{
+    padding: 0px 15px;
+    margin: 0px 20px;
+}
+.images{
+    display: inline-block;
+    width: 228 ;
+    height: 300px;
+    margin: 0px auto;
+}
+.images img{
+    width: 226px;
+    height: 151px;
+}
+/* FOOTER CSS START HERE */
+.footer{
+    color: #666666;
+    background-color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.container{
+    margin: 0px 34px;
+    padding: 70px 15px ;
+}
+.widget{
+    color: #bbb;
+    line-height: 1.8;
+    width: 360px;
+    height: 220px;
+    display: inline-block;
+}
+.widget img{
+    width: 20px;
+    height: 20px;
+}
+.link{
+    width: 390px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    bottom: 170px;
+    color: white;
+    left: 10px;
+}
+.contact{
+    width: 300px;
+    height: 100px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    bottom: 130px;
+    left: 20px;
+}
+.contact  li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 0px;
+}
+.end{
+    color: white;
+    background-color: #316DD9;
+    text-align: center;
+    height: 63px;
+}

@@ -1,0 +1,177 @@
+@media screen and (min-width: 360px) and (max-width: 1024px)  {
+ .logos{
+     display: block;
+     text-align: center;
+     margin: 20px auto;
+ }
+ nav{
+     height: 100px;
+ }
+ 
+    .nav-text{
+        position: relative;
+        top: 20px;
+     display: block;
+     text-align: center;
+
+ }
+ .nav2 li {
+}
+nav{
+    position: static;
+}
+.nav2{
+    margin-top: 25px;
+    position: static;
+    height: 150px;
+}
+.marque {
+    width: 100%;
+    margin: 10px auto;
+    height: 30px;
+}
+#introduction {
+    width: 100%;
+    margin: 5px auto;
+}
+
+.behindbox {
+    width: 100%;
+   
+}
+.boxi {
+    text-align: center;
+    padding: 0px;
+    width: 300px;
+    display: inline-block;
+    height: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.mission-1{
+    width: 100%;
+    display: block;
+}
+
+.mission-2{
+    width: 100%;
+    display: block;
+    margin: 0px 30px;
+}
+.box-2 {
+
+    display: block;
+    height: 80px;
+   margin: 10px auto;
+}
+.images{
+    display:  inline-block;
+    width: 150 ;
+    height: 100px;
+    margin: 0px auto;
+}
+.widget{
+    display: block;
+}
+.link{
+    display: block;
+    position: static;
+}
+.contact{
+    display: block;
+    position: static;
+}
+  }
+  /* for mobile */
+  @media screen and  (max-width: 360px)  {
+
+    .logos{
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+    }
+    nav{
+        height: 200px;
+    }
+    
+       .nav-text{
+           position: relative;
+           top: 20px;
+        display: block;
+        text-align: center;
+   
+    }
+    .nav2 li {
+   }
+   nav{
+       position: static;
+   }
+   .nav2{
+       margin-top: 25px;
+       position: static;
+       height: 150px;
+   }
+   .marque {
+       width: 100%;
+       margin: 10px auto;
+       height: 30px;
+   }
+   #introduction {
+       width: 100%;
+       margin: 5px auto;
+   }
+   
+   .behindbox {
+       width: 100%;
+      
+   }
+   .boxi {
+       text-align: center;
+       padding: 0px;
+       width: 300px;
+       display: inline-block;
+       height: 180px;
+     margin: 10px 0px;
+   }
+   .mission-1{
+       width: 100%;
+       display: block;
+   }
+   
+   .mission-2{
+       width: 100%;
+       display: block;
+       margin: 0px 30px;
+   }
+   .box-2 {
+   
+       display: block;
+       height: 80px;
+      margin: 10px auto;
+   }
+   .images{
+       display:  inline-block;
+       width: 150 ;
+       height: 100px;
+       margin: 0px auto;
+   }
+   .widget{
+       display: block;
+       width: 100%;
+       position: static;
+
+   }
+   .link{
+       width: 100%;
+      margin-top: 200px;
+      margin-bottom: 50px;
+       display: block;
+       position: static;
+   }
+   .contact{
+       display: block;
+       position: static;
+   }
+  
+  }
